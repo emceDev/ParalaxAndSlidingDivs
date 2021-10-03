@@ -12,7 +12,7 @@ function ParalaxItem(props) {
             position:'absolute'
             }}>
             <img src={props.img} style={{
-            width:props.width,}}/>
+            width:props.width,transform: "rotate("+props.pos+"deg)"}}/>
     </div> );
 }
 
