@@ -36,8 +36,8 @@
     box-sizing: border-box;
     border:double;
     border-width: 23px;
-    border-color: royalblue;
-    color:royalblue;
+    border-color: #ed5a36;
+    color:#ed5a36;
 
     min-height: 60vh;
     width:60vw;

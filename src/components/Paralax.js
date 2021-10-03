@@ -16,13 +16,13 @@ function Paralax() {
         setPos(Math.round(window.scrollY * 0.3));
       }
     const leafs = [
-    {url:l,left:12,top:-100, speed:0.5},
-    {url:l2,left:82,top:100, speed:1.1},
-    {url:l1,left:12,top:300, speed:1.2},
-    {url:l3,left:82,top:-400, speed:1.5},
-    {url:l4,left:62,top:-150, speed:1.9},
-    {url:l5,left:72,top:-200, speed:1.6},
-    {url:l6,left:32,top:-2, speed:2}
+    {url:l,left:12,top:-100, speed:5},
+    {url:l2,left:82,top:100, speed:4},
+    {url:l1,left:12,top:300, speed:3},
+    {url:l3,left:82,top:-400, speed:3},
+    {url:l4,left:62,top:-150, speed:4},
+    {url:l5,left:72,top:-200, speed:5},
+    {url:l6,left:32,top:-2, speed:4}
     ]
     const vh=window.screen.availHeight
     useEffect(() => {
